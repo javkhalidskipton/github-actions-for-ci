@@ -1,1 +1,4 @@
 name: Team awesome's approval workflow
+on:
+  pull_request_review_comment:
+    types: [created, deleted,assigned, opened, synchronize, reopened]
